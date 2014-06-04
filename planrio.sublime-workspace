@@ -1,0 +1,295 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"op",
+				"Gist: Open Gist"
+			],
+			[
+				"open",
+				"Gist: Open Gist"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robbiewain/planrio/planrio.sublime-project",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Installed Packages/Gist.sublime-package",
+		"/Users/robbiewain/planrio/app/bower_components/json3/.bower.json",
+		"/Users/robbiewain/planrio/app/bower_components/jquery/.bower.json",
+		"/Users/robbiewain/planrio/app/bower_components/es5-shim/.bower.json",
+		"/Users/robbiewain/planrio/app/bower_components/bootstrap-sass-official/.bower.json",
+		"/Users/robbiewain/planrio/app/bower_components/angular-scenario/.bower.json",
+		"/Users/robbiewain/planrio/app/bower_components/angular-mocks/.bower.json",
+		"/Users/robbiewain/planrio/app/bower_components/angular/.bower.json",
+		"/Users/robbiewain/planrio/app/.buildignore",
+		"/Users/robbiewain/planrio/app/bower_components/es5-shim/tests/helpers/h-kill.js",
+		"/Users/robbiewain/planrio/app/scripts/app.js",
+		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/Users/robbiewain/planrio/node_modules/.bin/autoprefixer",
+		"/Users/robbiewain/planrio/node_modules/grunt-bower-install/node_modules/bower-config/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/grunt-legacy-util/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/grunt-legacy-log/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/getobject/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/findup-sync/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/exit/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-newer/test/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-rev/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-newer/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-watch/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-uglify/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-jshint/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-jshint/.jshintignore",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-htmlmin/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-cssmin/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-copy/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-concat/.jshintrc",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-clean/.jshintrc",
+		"/Users/robbiewain/planrio/test/.jshintrc",
+		"/Users/robbiewain/planrio/.jshintrc",
+		"/Users/robbiewain/planrio/.bowerrc",
+		"/Users/robbiewain/planrio/node_modules/karma/node_modules/optimist/test/_/argv.js",
+		"/Users/robbiewain/planrio/node_modules/karma-jasmine/lib/jasmine.js",
+		"/Users/robbiewain/planrio/node_modules/grunt-contrib-jshint/tasks/jshint.js"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-pull":
+	{
+		"height": 100.0
+	},
+	"project": "planrio.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app/.js",
+				"app/scripts/app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,4 +1,3 @@
 'use strict';
 
-angular
-  .module('planrioApp', []);
+angular.module('planrioApp', ['google-maps']);
