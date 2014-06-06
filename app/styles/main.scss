@@ -6,10 +6,9 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
-html, body, .container, .angular-google-map, .angular-google-map-container {
+html, body, .google-map {
+    width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 #sidebar {

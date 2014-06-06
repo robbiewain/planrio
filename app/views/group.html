@@ -1,4 +1,4 @@
 <div class="group">
-	<h4>Group {{ selectedGroup.name }}</h4>
-	<game ng-repeat="game in selectedGroup.games" ng-click="toggleGame(game)" />
+	<h4>Group {{ group.name }}</h4>
+	<game ng-repeat="game in group.games" game="game" ng-click="clickGame({ game: game })"></game>
 </div>

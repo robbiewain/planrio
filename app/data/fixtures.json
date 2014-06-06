@@ -1,666 +1,671 @@
-[
-	{
-		"name": "A",
-		"games": [
-			{
-				"id": 1,
-				"datetime": 1402603200000,
-				"city": "São Paulo",
-				"team1": {
-					"name": "Brasil",
-					"cc": "bra"
+{
+	"groups": [
+		{
+			"name": "A",
+			"games": [
+				{
+					"id": 1,
+					"datetime": 1402603200000,
+					"city": "São Paulo",
+					"team1": {
+						"name": "Brasil",
+						"cc": "bra"
+					},
+					"team2": {
+						"name": "Croatia",
+						"cc": "cro"
+					}
 				},
-				"team2": {
-					"name": "Croatia",
-					"cc": "cro"
-				}
-			},
-			{
-				"id": 2,
-				"datetime": 1402675200000,
-				"city": "Natal",
-				"team1": {
-					"name": "Mexico",
-					"cc": "mex"
+				{
+					"id": 2,
+					"datetime": 1402675200000,
+					"city": "Natal",
+					"team1": {
+						"name": "Mexico",
+						"cc": "mex"
+					},
+					"team2": {
+						"name": "Cameroon",
+						"cc": "cmr"
+					}
 				},
-				"team2": {
-					"name": "Cameroon",
-					"cc": "cmr"
-				}
-			},
-			{
-				"id": 17,
-				"datetime": 1403031600000,
-				"city": "Fortaleza",
-				"team1": {
-					"name": "Brasil",
-					"cc": "bra"
+				{
+					"id": 17,
+					"datetime": 1403031600000,
+					"city": "Fortaleza",
+					"team1": {
+						"name": "Brasil",
+						"cc": "bra"
+					},
+					"team2": {
+						"name": "Mexico",
+						"cc": "mex"
+					}
 				},
-				"team2": {
-					"name": "Mexico",
-					"cc": "mex"
-				}
-			},
-			{
-				"id": 18,
-				"datetime": 1403125200000,
-				"city": "Manaus",
-				"team1": {
-					"name": "Cameroon",
-					"cc": "cmr"
+				{
+					"id": 18,
+					"datetime": 1403125200000,
+					"city": "Manaus",
+					"team1": {
+						"name": "Cameroon",
+						"cc": "cmr"
+					},
+					"team2": {
+						"name": "Croatia",
+						"cc": "cro"
+					}
 				},
-				"team2": {
-					"name": "Croatia",
-					"cc": "cro"
-				}
-			},
-			{
-				"id": 33,
-				"datetime": 1403553600000,
-				"city": "Brasília",
-				"team1": {
-					"name": "Cameroon",
-					"cc": "cmr"
+				{
+					"id": 33,
+					"datetime": 1403553600000,
+					"city": "Brasília",
+					"team1": {
+						"name": "Cameroon",
+						"cc": "cmr"
+					},
+					"team2": {
+						"name": "Brazil",
+						"cc": "bra"
+					}
 				},
-				"team2": {
-					"name": "Brazil",
-					"cc": "bra"
+				{
+					"id": 34,
+					"datetime": 1403553600000,
+					"city": "Recife",
+					"team1": {
+						"name": "Croatia",
+						"cc": "cro"
+					},
+					"team2": {
+						"name": "Mexico",
+						"cc": "mex"
+					}
 				}
-			},
-			{
-				"id": 34,
-				"datetime": 1403553600000,
-				"city": "Recife",
-				"team1": {
-					"name": "Croatia",
-					"cc": "cro"
+			]
+		},
+		{
+			"name": "B",
+			"games": [
+				{
+					"id": 3,
+					"datetime": 1402686000000,
+					"city": "Salvador",
+					"team1": {
+						"name": "Spain",
+						"cc": "esp"
+					},
+					"team2": {
+						"name": "Netherlands",
+						"cc": "ned"
+					}
 				},
-				"team2": {
-					"name": "Mexico",
-					"cc": "mex"
-				}
-			}
-		]
-	},
-	{
-		"name": "B",
-		"games": [
-			{
-				"id": 3,
-				"datetime": 1402686000000,
-				"city": "Salvador",
-				"team1": {
-					"name": "Spain",
-					"cc": "esp"
+				{
+					"id": 4,
+					"datetime": 1402693200000,
+					"city": "Cuiaba",
+					"team1": {
+						"name": "Chile",
+						"cc": "chi"
+					},
+					"team2": {
+						"name": "Australia",
+						"cc": "aus"
+					}
 				},
-				"team2": {
-					"name": "Netherlands",
-					"cc": "ned"
-				}
-			},
-			{
-				"id": 4,
-				"datetime": 1402693200000,
-				"city": "Cuiaba",
-				"team1": {
-					"name": "Chile",
-					"cc": "chi"
+				{
+					"id": 19,
+					"datetime": 1403118000000,
+					"city": "Rio de Janeiro",
+					"team1": {
+						"name": "Spain",
+						"cc": "esp"
+					},
+					"team2": {
+						"name": "Chile",
+						"cc": "chi"
+					}
 				},
-				"team2": {
-					"name": "Australia",
-					"cc": "aus"
-				}
-			},
-			{
-				"id": 19,
-				"datetime": 1403118000000,
-				"city": "Rio de Janeiro",
-				"team1": {
-					"name": "Spain",
-					"cc": "esp"
+				{
+					"id": 20,
+					"datetime": 1403107200000,
+					"city": "Porto Alegre",
+					"team1": {
+						"name": "Australia",
+						"cc": "aus"
+					},
+					"team2": {
+						"name": "Netherlands",
+						"cc": "ned"
+					}
 				},
-				"team2": {
-					"name": "Chile",
-					"cc": "chi"
-				}
-			},
-			{
-				"id": 20,
-				"datetime": 1403107200000,
-				"city": "Porto Alegre",
-				"team1": {
-					"name": "Australia",
-					"cc": "aus"
+				{
+					"id": 35,
+					"datetime": 1403539200000,
+					"city": "Curitiba",
+					"team1": {
+						"name": "Australia",
+						"cc": "aus"
+					},
+					"team2": {
+						"name": "Spain",
+						"cc": "esp"
+					}
 				},
-				"team2": {
-					"name": "Netherlands",
-					"cc": "ned"
+				{
+					"id": 36,
+					"datetime": 1403539200000,
+					"city": "Sao Paulo",
+					"team1": {
+						"name": "Netherlands",
+						"cc": "ned"
+					},
+					"team2": {
+						"name": "Chile",
+						"cc": "chi"
+					}
 				}
-			},
-			{
-				"id": 35,
-				"datetime": 1403539200000,
-				"city": "Curitiba",
-				"team1": {
-					"name": "Australia",
-					"cc": "aus"
+			]
+		},
+		{
+			"name": "C",
+			"games": [
+				{
+					"id": 5,
+					"datetime": 1402761600000,
+					"city": "Belo Horizonte",
+					"team1": {
+						"name": "Colombia",
+						"cc": "col"
+					},
+					"team2": {
+						"name": "Greece",
+						"cc": "gre"
+					}
 				},
-				"team2": {
-					"name": "Spain",
-					"cc": "esp"
-				}
-			},
-			{
-				"id": 36,
-				"datetime": 1403539200000,
-				"city": "Sao Paulo",
-				"team1": {
-					"name": "Netherlands",
-					"cc": "ned"
+				{
+					"id": 6,
+					"datetime": 1402794000000,
+					"city": "Recife",
+					"team1": {
+						"name": "Côte d'Ivoire",
+						"cc": "civ"
+					},
+					"team2": {
+						"name": "Japan",
+						"cc": "jpn"
+					}
 				},
-				"team2": {
-					"name": "Chile",
-					"cc": "chi"
-				}
-			}
-		]
-	},
-	{
-		"name": "C",
-		"games": [
-			{
-				"id": 5,
-				"datetime": 1402761600000,
-				"city": "Belo Horizonte",
-				"team1": {
-					"name": "Colombia",
-					"cc": "col"
+				{
+					"id": 21,
+					"datetime": 1403193600000,
+					"city": "Brasília",
+					"team1": {
+						"name": "Colombia",
+						"cc": "col"
+					},
+					"team2": {
+						"name": "Côte d'Ivoire",
+						"cc": "civ"
+					}
 				},
-				"team2": {
-					"name": "Greece",
-					"cc": "gre"
-				}
-			},
-			{
-				"id": 6,
-				"datetime": 1402794000000,
-				"city": "Recife",
-				"team1": {
-					"name": "Côte d'Ivoire",
-					"cc": "civ"
+				{
+					"id": 22,
+					"datetime": 1403215200000,
+					"city": "Natal",
+					"team1": {
+						"name": "Japan",
+						"cc": "jpn"
+					},
+					"team2": {
+						"name": "Greece",
+						"cc": "gre"
+					}
 				},
-				"team2": {
-					"name": "Japan",
-					"cc": "jpn"
-				}
-			},
-			{
-				"id": 21,
-				"datetime": 1403193600000,
-				"city": "Brasília",
-				"team1": {
-					"name": "Colombia",
-					"cc": "col"
+				{
+					"id": 37,
+					"datetime": 1403636400000,
+					"city": "Cuiaba",
+					"team1": {
+						"name": "Japan",
+						"cc": "jpn"
+					},
+					"team2": {
+						"name": "Colombia",
+						"cc": "col"
+					}
 				},
-				"team2": {
-					"name": "Côte d'Ivoire",
-					"cc": "civ"
+				{
+					"id": 38,
+					"datetime": 1403640000000,
+					"city": "Fortaleza",
+					"team1": {
+						"name": "Greece",
+						"cc": "gre"
+					},
+					"team2": {
+						"name": "Côte d'Ivoire",
+						"cc": "civ"
+					}
 				}
-			},
-			{
-				"id": 22,
-				"datetime": 1403215200000,
-				"city": "Natal",
-				"team1": {
-					"name": "Japan",
-					"cc": "jpn"
+			]
+		},
+		{
+			"name": "D",
+			"games": [
+				{
+					"id": 7,
+					"datetime": 1402772400000,
+					"city": "Fortaleza",
+					"team1": {
+						"name": "Uruguay",
+						"cc": "uru"
+					},
+					"team2": {
+						"name": "Costa-Rica",
+						"cc": "crc"
+					}
 				},
-				"team2": {
-					"name": "Greece",
-					"cc": "gre"
-				}
-			},
-			{
-				"id": 37,
-				"datetime": 1403636400000,
-				"city": "Cuiaba",
-				"team1": {
-					"name": "Japan",
-					"cc": "jpn"
+				{
+					"id": 8,
+					"datetime": 1402779600000,
+					"city": "Manaus",
+					"team1": {
+						"name": "England",
+						"cc": "eng"
+					},
+					"team2": {
+						"name": "Italy",
+						"cc": "ita"
+					}
 				},
-				"team2": {
-					"name": "Colombia",
-					"cc": "col"
-				}
-			},
-			{
-				"id": 38,
-				"datetime": 1403640000000,
-				"city": "Fortaleza",
-				"team1": {
-					"name": "Greece",
-					"cc": "gre"
+				{
+					"id": 23,
+					"datetime": 1403204400000,
+					"city": "Sao Paulo",
+					"team1": {
+						"name": "Uruguay",
+						"cc": "uru"
+					},
+					"team2": {
+						"name": "England",
+						"cc": "eng"
+					}
 				},
-				"team2": {
-					"name": "Côte d'Ivoire",
-					"cc": "civ"
-				}
-			}
-		]
-	},
-	{
-		"name": "D",
-		"games": [
-			{
-				"id": 7,
-				"datetime": 1402772400000,
-				"city": "Fortaleza",
-				"team1": {
-					"name": "Uruguay",
-					"cc": "uru"
+				{
+					"id": 24,
+					"datetime": 1403280000000,
+					"city": "Recife",
+					"team1": {
+						"name": "Italy",
+						"cc": "ita"
+					},
+					"team2": {
+						"name": "Costa-Rica",
+						"cc": "crc"
+					}
 				},
-				"team2": {
-					"name": "Costa-Rica",
-					"cc": "crc"
-				}
-			},
-			{
-				"id": 8,
-				"datetime": 1402779600000,
-				"city": "Manaus",
-				"team1": {
-					"name": "England",
-					"cc": "eng"
+				{
+					"id": 39,
+					"datetime": 1403625600000,
+					"city": "Natal",
+					"team1": {
+						"name": "Italy",
+						"cc": "ita"
+					},
+					"team2": {
+						"name": "Uruguay",
+						"cc": "uru"
+					}
 				},
-				"team2": {
-					"name": "Italy",
-					"cc": "ita"
+				{
+					"id": 40,
+					"datetime": 1403625600000,
+					"city": "Belo Horizonte",
+					"team1": {
+						"name": "Costa-Rica",
+						"cc": "crc"
+					},
+					"team2": {
+						"name": "England",
+						"cc": "eng"
+					}
 				}
-			},
-			{
-				"id": 23,
-				"datetime": 1403204400000,
-				"city": "Sao Paulo",
-				"team1": {
-					"name": "Uruguay",
-					"cc": "uru"
+			]
+		},
+		{
+			"name": "E",
+			"games": [
+				{
+					"id": 9,
+					"datetime": 1402848000000,
+					"city": "Brasília",
+					"team1": {
+						"name": "Switzerland",
+						"cc": "sui"
+					},
+					"team2": {
+						"name": "Ecuador",
+						"cc": "ecu"
+					}
 				},
-				"team2": {
-					"name": "England",
-					"cc": "eng"
-				}
-			},
-			{
-				"id": 24,
-				"datetime": 1403280000000,
-				"city": "Recife",
-				"team1": {
-					"name": "Italy",
-					"cc": "ita"
+				{
+					"id": 10,
+					"datetime": 1402858800000,
+					"city": "Porto Alegre",
+					"team1": {
+						"name": "France",
+						"cc": "fra"
+					},
+					"team2": {
+						"name": "Honduras",
+						"cc": "hon"
+					}
 				},
-				"team2": {
-					"name": "Costa-Rica",
-					"cc": "crc"
-				}
-			},
-			{
-				"id": 39,
-				"datetime": 1403625600000,
-				"city": "Natal",
-				"team1": {
-					"name": "Italy",
-					"cc": "ita"
+				{
+					"id": 25,
+					"datetime": 1403290800000,
+					"city": "Salvador",
+					"team1": {
+						"name": "Switzerland",
+						"cc": "sui"
+					},
+					"team2": {
+						"name": "France",
+						"cc": "fra"
+					}
 				},
-				"team2": {
-					"name": "Uruguay",
-					"cc": "uru"
-				}
-			},
-			{
-				"id": 40,
-				"datetime": 1403625600000,
-				"city": "Belo Horizonte",
-				"team1": {
-					"name": "Costa-Rica",
-					"cc": "crc"
+				{
+					"id": 26,
+					"datetime": 1403301600000,
+					"city": "Curitiba",
+					"team1": {
+						"name": "Honduras",
+						"cc": "hon"
+					},
+					"team2": {
+						"name": "Ecuador",
+						"cc": "ecu"
+					}
 				},
-				"team2": {
-					"name": "England",
-					"cc": "eng"
-				}
-			}
-		]
-	},
-	{
-		"name": "E",
-		"games": [
-			{
-				"id": 9,
-				"datetime": 1402848000000,
-				"city": "Brasília",
-				"team1": {
-					"name": "Switzerland",
-					"cc": "sui"
+				{
+					"id": 41,
+					"datetime": 1403722800000,
+					"city": "Manaus",
+					"team1": {
+						"name": "Honduras",
+						"cc": "hon"
+					},
+					"team2": {
+						"name": "Switzerland",
+						"cc": "sui"
+					}
 				},
-				"team2": {
-					"name": "Ecuador",
-					"cc": "ecu"
+				{
+					"id": 42,
+					"datetime": 1403726400000,
+					"city": "Rio de Janeiro",
+					"team1": {
+						"name": "Ecuador",
+						"cc": "ecu"
+					},
+					"team2": {
+						"name": "France",
+						"cc": "fra"
+					}
 				}
-			},
-			{
-				"id": 10,
-				"datetime": 1402858800000,
-				"city": "Porto Alegre",
-				"team1": {
-					"name": "France",
-					"cc": "fra"
+			]
+		},
+		{
+			"name": "F",
+			"games": [
+				{
+					"id": 11,
+					"datetime": 1402869600000,
+					"city": "Rio de Janeiro",
+					"team1": {
+						"name": "Argentina",
+						"cc": "arg"
+					},
+					"team2": {
+						"name": "Bosnia",
+						"cc": "bih"
+					}
 				},
-				"team2": {
-					"name": "Honduras",
-					"cc": "hon"
-				}
-			},
-			{
-				"id": 25,
-				"datetime": 1403290800000,
-				"city": "Salvador",
-				"team1": {
-					"name": "Switzerland",
-					"cc": "sui"
+				{
+					"id": 12,
+					"datetime": 1402945200000,
+					"city": "Curitiba",
+					"team1": {
+						"name": "Iran",
+						"cc": "irn"
+					},
+					"team2": {
+						"name": "Nigeria",
+						"cc": "nga"
+					}
 				},
-				"team2": {
-					"name": "France",
-					"cc": "fra"
-				}
-			},
-			{
-				"id": 26,
-				"datetime": 1403301600000,
-				"city": "Curitiba",
-				"team1": {
-					"name": "Honduras",
-					"cc": "hon"
+				{
+					"id": 27,
+					"datetime": 1403366400000,
+					"city": "Belo Horizonte",
+					"team1": {
+						"name": "Argentina",
+						"cc": "arg"
+					},
+					"team2": {
+						"name": "Iran",
+						"cc": "irn"
+					}
 				},
-				"team2": {
-					"name": "Ecuador",
-					"cc": "ecu"
-				}
-			},
-			{
-				"id": 41,
-				"datetime": 1403722800000,
-				"city": "Manaus",
-				"team1": {
-					"name": "Honduras",
-					"cc": "hon"
+				{
+					"id": 28,
+					"datetime": 1403384400000,
+					"city": "Cuiaba",
+					"team1": {
+						"name": "Nigeria",
+						"cc": "nga"
+					},
+					"team2": {
+						"name": "Bosnia",
+						"cc": "bih"
+					}
 				},
-				"team2": {
-					"name": "Switzerland",
-					"cc": "sui"
-				}
-			},
-			{
-				"id": 42,
-				"datetime": 1403726400000,
-				"city": "Rio de Janeiro",
-				"team1": {
-					"name": "Ecuador",
-					"cc": "ecu"
+				{
+					"id": 43,
+					"datetime": 1403712000000,
+					"city": "Porto Alegre",
+					"team1": {
+						"name": "Nigeria",
+						"cc": "nga"
+					},
+					"team2": {
+						"name": "Argentina",
+						"cc": "arg"
+					}
 				},
-				"team2": {
-					"name": "France",
-					"cc": "fra"
+				{
+					"id": 44,
+					"datetime": 1403712000000,
+					"city": "Salvador",
+					"team1": {
+						"name": "Bosnia",
+						"cc": "bih"
+					},
+					"team2": {
+						"name": "Iran",
+						"cc": "irn"
+					}
 				}
-			}
-		]
-	},
-	{
-		"name": "F",
-		"games": [
-			{
-				"id": 11,
-				"datetime": 1402869600000,
-				"city": "Rio de Janeiro",
-				"team1": {
-					"name": "Argentina",
-					"cc": "arg"
+			]
+		},
+		{
+			"name": "G",
+			"games": [
+				{
+					"id": 13,
+					"datetime": 1402934400000,
+					"city": "Salvador",
+					"team1": {
+						"name": "Germany",
+						"cc": "ger"
+					},
+					"team2": {
+						"name": "Portugal",
+						"cc": "por"
+					}
 				},
-				"team2": {
-					"name": "Bosnia",
-					"cc": "bih"
-				}
-			},
-			{
-				"id": 12,
-				"datetime": 1402945200000,
-				"city": "Curitiba",
-				"team1": {
-					"name": "Iran",
-					"cc": "irn"
+				{
+					"id": 14,
+					"datetime": 1402956000000,
+					"city": "Natal",
+					"team1": {
+						"name": "Ghana",
+						"cc": "gha"
+					},
+					"team2": {
+						"name": "USA",
+						"cc": "usa"
+					}
 				},
-				"team2": {
-					"name": "Nigeria",
-					"cc": "nga"
-				}
-			},
-			{
-				"id": 27,
-				"datetime": 1403366400000,
-				"city": "Belo Horizonte",
-				"team1": {
-					"name": "Argentina",
-					"cc": "arg"
+				{
+					"id": 29,
+					"datetime": 1403377200000,
+					"city": "Fortaleza",
+					"team1": {
+						"name": "Germany",
+						"cc": "ger"
+					},
+					"team2": {
+						"name": "Ghana",
+						"cc": "gha"
+					}
 				},
-				"team2": {
-					"name": "Iran",
-					"cc": "irn"
-				}
-			},
-			{
-				"id": 28,
-				"datetime": 1403384400000,
-				"city": "Cuiaba",
-				"team1": {
-					"name": "Nigeria",
-					"cc": "nga"
+				{
+					"id": 30,
+					"datetime": 1403470800000,
+					"city": "Manaus",
+					"team1": {
+						"name": "USA",
+						"cc": "usa"
+					},
+					"team2": {
+						"name": "Portugal",
+						"cc": "por"
+					}
 				},
-				"team2": {
-					"name": "Bosnia",
-					"cc": "bih"
-				}
-			},
-			{
-				"id": 43,
-				"datetime": 1403712000000,
-				"city": "Porto Alegre",
-				"team1": {
-					"name": "Nigeria",
-					"cc": "nga"
+				{
+					"id": 45,
+					"datetime": 1403798400000,
+					"city": "Recife",
+					"team1": {
+						"name": "USA",
+						"cc": "usa"
+					},
+					"team2": {
+						"name": "Germany",
+						"cc": "ger"
+					}
 				},
-				"team2": {
-					"name": "Argentina",
-					"cc": "arg"
+				{
+					"id": 46,
+					"datetime": 1403798400000,
+					"city": "Brasília",
+					"team1": {
+						"name": "Portugal",
+						"cc": "por"
+					},
+					"team2": {
+						"name": "Ghana",
+						"cc": "gha"
+					}
 				}
-			},
-			{
-				"id": 44,
-				"datetime": 1403712000000,
-				"city": "Salvador",
-				"team1": {
-					"name": "Bosnia",
-					"cc": "bih"
+			]
+		},
+		{
+			"name": "H",
+			"games": [
+				{
+					"id": 15,
+					"datetime": 1403020800000,
+					"city": "Belo Horizonte",
+					"team1": {
+						"name": "Belgium",
+						"cc": "bel"
+					},
+					"team2": {
+						"name": "Algeria",
+						"cc": "alg"
+					}
 				},
-				"team2": {
-					"name": "Iran",
-					"cc": "irn"
-				}
-			}
-		]
-	},
-	{
-		"name": "G",
-		"games": [
-			{
-				"id": 13,
-				"datetime": 1402934400000,
-				"city": "Salvador",
-				"team1": {
-					"name": "Germany",
-					"cc": "ger"
+				{
+					"id": 16,
+					"datetime": 1403038800000,
+					"city": "Cuiaba",
+					"team1": {
+						"name": "Russia",
+						"cc": "rus"
+					},
+					"team2": {
+						"name": "South Korea",
+						"cc": "kor"
+					}
 				},
-				"team2": {
-					"name": "Portugal",
-					"cc": "por"
-				}
-			},
-			{
-				"id": 14,
-				"datetime": 1402956000000,
-				"city": "Natal",
-				"team1": {
-					"name": "Ghana",
-					"cc": "gha"
+				{
+					"id": 31,
+					"datetime": 1403452800000,
+					"city": "Rio de Janeiro",
+					"team1": {
+						"name": "Belgium",
+						"cc": "bel"
+					},
+					"team2": {
+						"name": "Russia",
+						"cc": "rus"
+					}
 				},
-				"team2": {
-					"name": "USA",
-					"cc": "usa"
-				}
-			},
-			{
-				"id": 29,
-				"datetime": 1403377200000,
-				"city": "Fortaleza",
-				"team1": {
-					"name": "Germany",
-					"cc": "ger"
+				{
+					"id": 32,
+					"datetime": 1403463600000,
+					"city": "Porto Alegre",
+					"team1": {
+						"name": "South Korea",
+						"cc": "kor"
+					},
+					"team2": {
+						"name": "Algeria",
+						"cc": "alg"
+					}
 				},
-				"team2": {
-					"name": "Ghana",
-					"cc": "gha"
-				}
-			},
-			{
-				"id": 30,
-				"datetime": 1403470800000,
-				"city": "Manaus",
-				"team1": {
-					"name": "USA",
-					"cc": "usa"
+				{
+					"id": 47,
+					"datetime": 1403812800000,
+					"city": "Sao Paulo",
+					"team1": {
+						"name": "South Korea",
+						"cc": "kor"
+					},
+					"team2": {
+						"name": "Belgium",
+						"cc": "bel"
+					}
 				},
-				"team2": {
-					"name": "Portugal",
-					"cc": "por"
+				{
+					"id": 48,
+					"datetime": 1403812800000,
+					"city": "Curitiba",
+					"team1": {
+						"name": "Algeria",
+						"cc": "alg"
+					},
+					"team2": {
+						"name": "Russia",
+						"cc": "rus"
+					}
 				}
-			},
-			{
-				"id": 45,
-				"datetime": 1403798400000,
-				"city": "Recife",
-				"team1": {
-					"name": "USA",
-					"cc": "usa"
-				},
-				"team2": {
-					"name": "Germany",
-					"cc": "ger"
-				}
-			},
-			{
-				"id": 46,
-				"datetime": 1403798400000,
-				"city": "Brasília",
-				"team1": {
-					"name": "Portugal",
-					"cc": "por"
-				},
-				"team2": {
-					"name": "Ghana",
-					"cc": "gha"
-				}
-			}
-		]
-	},
-	{
-		"name": "H",
-		"games": [
-			{
-				"id": 15,
-				"datetime": 1403020800000,
-				"city": "Belo Horizonte",
-				"team1": {
-					"name": "Belgium",
-					"cc": "bel"
-				},
-				"team2": {
-					"name": "Algeria",
-					"cc": "alg"
-				}
-			},
-			{
-				"id": 16,
-				"datetime": 1403038800000,
-				"city": "Cuiaba",
-				"team1": {
-					"name": "Russia",
-					"cc": "rus"
-				},
-				"team2": {
-					"name": "South Korea",
-					"cc": "kor"
-				}
-			},
-			{
-				"id": 31,
-				"datetime": 1403452800000,
-				"city": "Rio de Janeiro",
-				"team1": {
-					"name": "Belgium",
-					"cc": "bel"
-				},
-				"team2": {
-					"name": "Russia",
-					"cc": "rus"
-				}
-			},
-			{
-				"id": 32,
-				"datetime": 1403463600000,
-				"city": "Porto Alegre",
-				"team1": {
-					"name": "South Korea",
-					"cc": "kor"
-				},
-				"team2": {
-					"name": "Algeria",
-					"cc": "alg"
-				}
-			},
-			{
-				"id": 47,
-				"datetime": 1403812800000,
-				"city": "Sao Paulo",
-				"team1": {
-					"name": "South Korea",
-					"cc": "kor"
-				},
-				"team2": {
-					"name": "Belgium",
-					"cc": "bel"
-				}
-			},
-			{
-				"id": 48,
-				"datetime": 1403812800000,
-				"city": "Curitiba",
-				"team1": {
-					"name": "Algeria",
-					"cc": "alg"
-				},
-				"team2": {
-					"name": "Russia",
-					"cc": "rus"
-				}
-			}
-		]
-	}
-]
+			]
+		}
+	],
+	"finals": [
+
+	]
+}
