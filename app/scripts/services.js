@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('planrioApp')
-	.factory('planrio', function ($http, $filter) {
+	.service('planrio', function ($http, $filter) {
 		var directionsService = new google.maps.DirectionsService();
 		var directionsRenderer = new google.maps.DirectionsRenderer();
 
@@ -15,6 +15,7 @@ angular.module('planrioApp')
 			selectedGames: [],
 			routes: [],
 			toggleGame: function (game, routesUpdated) {
+				// Either add or remove the selected game
 				var gameIndex = this.selectedGames.indexOf(game);
 				if (gameIndex === -1) {
 					this.selectedGames.push(game);
@@ -24,37 +25,41 @@ angular.module('planrioApp')
 
 				this.routes.length = 0;
 
+				// Clear the directions on the map
 				if (this.selectedGames.length < 2) {
 					directionsRenderer.setDirections({ routes: [] });
 					return;
 				}
 
-				var sortedGames = $filter('orderBy')(this.selectedGames, 'id');
-				var origin = sortedGames[0].city;
-				var destination = sortedGames[sortedGames.length - 1].city;
-				var waypoints = [];
+				// Sort the selected games by id since it is equivalent to chronological order
+				var cities = $filter('orderBy')(this.selectedGames, 'id').map(function (game) {
+					return game.city;
+				});
 
-				if (sortedGames.length > 2) {
-					for (var i = sortedGames.length - 2; i >= 1; i--) {
-						waypoints.push({
-							location: sortedGames[i].city,
+				var request = {
+					origin: cities[0],
+					destination: cities[cities.length - 1],
+					waypoints: [],
+					travelMode: google.maps.TravelMode.DRIVING
+				};
+
+				// Need to add waypoints if there are more than two cities
+				if (cities.length > 2) {
+					for (var i = cities.length - 2; i >= 1; i--) {
+						request.waypoints.push({
+							location: cities[i],
 							stopover: true,
 						});
 					}
 				}
 
-				var request = {
-					origin: origin,
-					destination: destination,
-					travelMode: google.maps.TravelMode.DRIVING,
-					waypoints: waypoints
-				};
-				
-				var me = this;
+				// Keep a reference to the routes object so the callback can access it
+				var routes = this.routes;
 				directionsService.route(request, function (response, status) {
-					if (status == google.maps.DirectionsStatus.OK) {
+					if (status === google.maps.DirectionsStatus.OK) {
+						// Save route information for display purposes 
 						angular.forEach(response.routes[0].legs, function (leg) {
-							me.routes.push({
+							routes.push({
 								'distance': leg.distance.text,
 								'duration': leg.duration.text
 							});

@@ -5,7 +5,7 @@ angular.module('planrioApp')
 		return {
 			restrict: 'E',
 			template: '<div class="google-map"></div>',
-			link: function (scope, element, attrs) {
+			link: function (scope, element) {
 				var mapOptions = {
 					zoom: 5,
 					center: new google.maps.LatLng(-12.370, -47.285),
@@ -52,16 +52,11 @@ angular.module('planrioApp')
 	})
 	.directive('brasilTime', function ($filter) {
 		function convertToBrasilTime (datetime) {
-			// create Date object for current location
-			var d = new Date(datetime);
-
-			// convert to msec
-			// add local time zone offset
 			// get UTC time in msec
+			var d = new Date(datetime);
 			var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
 
-			// create new Date object for Brasil (UTC -0300)
-			// using supplied offset
+			// create new Date object for Rio de Janeiro, Brasil (UTC -0300)
 			return new Date(utc + (3600000*-3));
 		}
 
