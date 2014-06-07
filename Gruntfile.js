@@ -161,8 +161,8 @@ module.exports = function (grunt) {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
         cssDir: '.tmp/styles',
-        generatedImagesDir: '.tmp/images/generated',
-        imagesDir: '<%= yeoman.app %>/images',
+        generatedImagesDir: '/images/generated',
+        imagesDir: '/images',
         javascriptsDir: '<%= yeoman.app %>/scripts',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
         importPath: '<%= yeoman.app %>/bower_components',
@@ -192,7 +192,6 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/scripts/{,*/}*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= yeoman.dist %>/styles/fonts/*'
           ]
         }
@@ -308,13 +307,14 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/*',
-            'fonts/*'
+            'fonts/*',
+            'data/*'
           ]
         }, {
           expand: true,
-          cwd: '.tmp/images',
+          cwd: 'images',
           dest: '<%= yeoman.dist %>/images',
-          src: ['generated/*']
+          src: ['*']
         }]
       },
       styles: {
@@ -338,6 +338,22 @@ module.exports = function (grunt) {
         //'imagemin',
         'svgmin'
       ]
+    },
+
+    rsync: {
+      options: {
+        args: ['--verbose'],
+        exclude: ['.git*','*.scss','node_modules'],
+        recursive: true
+      },
+      dist: {
+        options: {
+          src: '<%= yeoman.dist %>/',
+          dest: '/home/ubuntu/planrio',
+          host: 'planrio',
+          syncDestIgnoreExcl: true
+        }
+      }
     },
 
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
@@ -423,7 +439,14 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    // 'test',
+    'test',
     'build'
   ]);
+
+  grunt.registerTask('deploy', [
+    'default',
+    'rsync:dist'
+  ]);
+
+  grunt.loadNpmTasks('grunt-rsync');
 };
