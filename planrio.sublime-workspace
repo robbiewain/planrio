@@ -3,15 +3,139 @@
 	{
 		"selected_items":
 		[
+			[
+				"google",
+				"googleRoutes"
+			],
+			[
+				"go",
+				"googleResponse"
+			],
+			[
+				"goo",
+				"googleRoutes"
+			],
+			[
+				"citie",
+				"citiesLength"
+			],
+			[
+				"ci",
+				"citiesLength"
+			],
+			[
+				"cit",
+				"cities"
+			],
+			[
+				"wayp",
+				"waypointsMAX"
+			],
+			[
+				"toggle",
+				"toggleGame"
+			],
+			[
+				"tog",
+				"toggleGame"
+			],
+			[
+				"selec",
+				"selectedGroup"
+			],
+			[
+				"select",
+				"selectGroup"
+			],
+			[
+				"temp",
+				"templateUrl"
+			],
+			[
+				"getTim",
+				"getTimezoneOffset"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"ne",
+				"newjson"
+			],
+			[
+				"selecte",
+				"selectedGroup"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"Po",
+				"Porto"
+			],
+			[
+				"Ho",
+				"Horizonte"
+			],
+			[
+				"Bel",
+				"Belo"
+			],
+			[
+				"Cu",
+				"Curitiba"
+			],
+			[
+				"Bra",
+				"Brasília"
+			],
+			[
+				"set",
+				"setDirections"
+			],
+			[
+				"selectg",
+				"selectedGames"
+			],
+			[
+				"templ",
+				"templateUrl"
+			],
+			[
+				"cmr",
+				"cmr"
+			],
+			[
+				"zo",
+				"zoom"
+			],
+			[
+				"z",
+				"ZoomControlStyle"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/scripts/app.js",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 52,
+				"buffer_size": 2102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/route.html",
+			"settings":
+			{
+				"buffer_size": 96,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,16 +143,36 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 187.0,
+		"height": 247.0,
 		"selected_items":
 		[
 			[
-				"delete",
-				"File: Delete"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
+			],
+			[
+				"angular ",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"delete",
+				"File: Delete"
 			],
 			[
 				"git pu",
@@ -53,10 +197,6 @@
 			[
 				"open",
 				"Gist: Open Gist"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"package",
@@ -96,7 +236,36 @@
 	},
 	"file_history":
 	[
+		"/Users/robbiewain/planrio/app/marketing.html",
+		"/Users/robbiewain/planrio/app/units.html",
+		"/Users/robbiewain/planrio/app/mitc.html",
+		"/Users/robbiewain/planrio/app/styles/main.scss",
+		"/Users/robbiewain/planrio/app/index.html",
 		"/Users/robbiewain/planrio/planrio.sublime-project",
+		"/Users/robbiewain/planrio/Gruntfile.js",
+		"/Users/robbiewain/planrio/dist/styles/2c7e86ba.main.css",
+		"/Users/robbiewain/planrio/package.json",
+		"/Users/robbiewain/planrio/app/scripts/controllers.js",
+		"/Users/robbiewain/planrio/app/scripts/services.js",
+		"/Users/robbiewain/planrio/app/scripts/directives.js",
+		"/Users/robbiewain/planrio/.jshintrc",
+		"/Users/robbiewain/planrio/app/views/route.html",
+		"/Users/robbiewain/planrio/app/views/group.html",
+		"/Users/robbiewain/planrio/app/views/game.html",
+		"/Users/robbiewain/planrio/bower.json",
+		"/Users/robbiewain/planrio/app/views/flag.html",
+		"/Users/robbiewain/planrio/app/data/fixtures.json",
+		"/Users/robbiewain/planrio/app/scripts/app.js",
+		"/Users/robbiewain/planrio/app/views/main.html",
+		"/Users/robbiewain/planrio/app/scripts/controllers/main.js",
+		"/Users/robbiewain/planrio/app/scripts/directives/game.js",
+		"/Users/robbiewain/planrio/app/scripts/directives/group.js",
+		"/Users/robbiewain/planrio/app/scripts/directives/travel.js",
+		"/var/folders/jm/ykt2jm4x1s76jsgyzkd907qw0000gp/T/angular.js",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
 		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
 		"/Users/robbiewain/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
@@ -112,7 +281,6 @@
 		"/Users/robbiewain/planrio/app/bower_components/angular/.bower.json",
 		"/Users/robbiewain/planrio/app/.buildignore",
 		"/Users/robbiewain/planrio/app/bower_components/es5-shim/tests/helpers/h-kill.js",
-		"/Users/robbiewain/planrio/app/scripts/app.js",
 		"/Users/robbiewain/planrio/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
 		"/Users/robbiewain/planrio/node_modules/.bin/autoprefixer",
 		"/Users/robbiewain/planrio/node_modules/grunt-bower-install/node_modules/bower-config/.jshintrc",
@@ -134,7 +302,6 @@
 		"/Users/robbiewain/planrio/node_modules/grunt-contrib-concat/.jshintrc",
 		"/Users/robbiewain/planrio/node_modules/grunt-contrib-clean/.jshintrc",
 		"/Users/robbiewain/planrio/test/.jshintrc",
-		"/Users/robbiewain/planrio/.jshintrc",
 		"/Users/robbiewain/planrio/.bowerrc",
 		"/Users/robbiewain/planrio/node_modules/karma/node_modules/optimist/test/_/argv.js",
 		"/Users/robbiewain/planrio/node_modules/karma-jasmine/lib/jasmine.js",
@@ -142,13 +309,14 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -156,13 +324,104 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</a> ",
+			"<li>Unit .+ -",
+			"rsync",
+			"<div id=\".*\"",
+			"Critique",
+			"- .*",
+			"- .*\\n",
+			".tmp",
+			"vendor",
+			"css:",
+			"default",
+			"action",
+			"argument",
+			"finals",
+			"\"datetime\": \".+\"",
+			"\"datetime\": \".+-300",
+			"\"datetime\": \".+-300\"",
+			"\"datetime\": \".+\"",
+			"routes",
+			"this.sortedGames",
+			"this.selectedGames",
+			"duration",
+			"selectedGames",
+			"  				",
+			"\n  				",
+			"  			}",
+			"selectedGames",
+			"\"",
+			"ciruv",
+			"civ",
+			"Colombia",
+			"Japan",
+			"Greece",
+			"Côte d'Ivoire",
+			"Côtire",
+			"Greec",
+			"Côtvoire",
+			"Greece",
+			"Colombia",
+			"Greece",
+			"CôtIvoire",
+			"Japan",
+			"Côtoire",
+			"Greece",
+			"CôtIvoire",
+			"Greece",
+			"Colombia",
+			"Japan",
+			"Greece",
+			"Côtoire",
+			"Colombia",
+			"Japan",
+			"CôtIvoire",
+			"Greece",
+			"Colombia",
+			"Côtre",
+			"Côtire",
+			"col",
+			"Colombia",
+			"Greece",
+			"null",
+			"directionsDisplay",
+			"group",
+			"Recife",
+			"Brasília",
+			"Manaus",
+			"Fortaleza",
+			"cro",
+			"Mexico",
+			"ument",
+			"bra",
+			"Croatia",
+			"Paulo",
+			"flag",
+			"name",
+			"datetime",
+			"games",
+			"Croatia",
+			"Brasil∂",
+			"Brazil",
+			"spaces",
+			"maps"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"</a><br/>",
+			"<li><a href=\"#$0\">",
+			"<li>$0</li>",
+			"$0",
+			"$1",
+			"<li>\\1</li>",
+			"<li>$1</li>",
+			"<li>[0]</li>",
+			"<li>.*</li>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -173,29 +432,59 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/scripts/app.js",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 52,
+						"buffer_size": 2102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								1074,
+								1074
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/route.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -209,11 +498,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -249,7 +538,7 @@
 	"project": "planrio.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -257,6 +546,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"app",
+				"app/scripts/app.js"
+			],
 			[
 				"app/.js",
 				"app/scripts/app.js"
@@ -282,12 +575,21 @@
 	},
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

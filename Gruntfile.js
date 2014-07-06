@@ -32,8 +32,8 @@ module.exports = function (grunt) {
         tasks: ['bowerInstall']
       },
       js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
-        tasks: ['newer:jshint:all'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
+        tasks: ['coffee'],
         options: {
           livereload: true
         }
@@ -356,6 +356,17 @@ module.exports = function (grunt) {
       }
     },
 
+    coffee: {
+      source: {
+        flatten: true,
+        expand: true,
+        cwd: '<%= yeoman.app %>/scripts',
+        src: ['*.coffee'],
+        dest: '.tmp/scripts',
+        ext: '.js'
+      }
+    },
+
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
     // to use the Usemin blocks.
@@ -400,6 +411,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'bowerInstall',
+      'coffee',
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',
@@ -428,6 +440,7 @@ module.exports = function (grunt) {
     'autoprefixer',
     'concat',
     'ngmin',
+    'coffee',
     'copy:dist',
     'cdnify',
     'cssmin',
@@ -439,7 +452,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
+    //'test',
     'build'
   ]);
 
@@ -449,4 +462,6 @@ module.exports = function (grunt) {
   ]);
 
   grunt.loadNpmTasks('grunt-rsync');
+  grunt.loadNpmTasks('grunt-contrib-coffee');
+
 };
